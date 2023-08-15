@@ -1,0 +1,589 @@
+body{
+    width: 100%;
+    height: 720px;
+    background-color:  #fafafa;
+}
+.page1{
+    position: relative;
+    width: 100%;
+    height: inherit;
+    top: 0;
+}
+.img{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    background-image: url("apple2.png");
+    background-size: cover;
+    right: 0;
+    top: 0;
+    transform: scale(0.8);
+}
+.reader{
+    text-transform: capitalize;
+}
+.one{
+    position: absolute;
+    color: rgb(128, 128, 128);
+    font-size: 40px;
+    top: 150px;
+    font-weight:150;
+    left: 260px;
+}
+.two{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 100;
+    left: 260px;
+    top: 200px;
+}
+.three{
+    position: absolute;
+    color: rgb(128, 128, 128);
+    text-transform: capitalize;
+    max-width: 500px;
+    font-size: 20px;
+    font-weight: 200;
+    left: 260px;
+    top: 350px;
+}
+.tick{
+    position: relative;
+    display: inline-block;
+    min-width: 250px;
+    min-height: 73px;
+    background-color: #FFFFFF;
+    top:  450px ;
+    left: 250px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.196);
+    
+}
+.line1{
+    position: absolute;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    top: 10px;
+    left: 90px;
+    color: black;
+
+}
+.line2{
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    top: 23px;
+    left: 90px;
+    color: black;
+}
+.img2{
+    position: absolute;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url("apple.png");
+    background-size: cover;
+    transform: scale(0.6);
+
+}
+.apple{
+    position: absolute;
+    width: 253.2px;
+    height: 76.2px;
+}
+.tick2{
+    position: relative;
+    display: inline-block;
+    min-width: 250px;
+    min-height: 73px;
+    background-color: #590DF3;
+    color: white;
+    top:  450px ;
+    left: 280px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.img3{
+    position: absolute;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url("google-play\ \(2\).png");
+    background-size: cover;
+    transform: scale(0.6);
+}
+.line3{
+    position: absolute;
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    top: 10px;
+    left: 90px;
+    color: white;
+}
+.line4{
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    top: 23px;
+    left: 90px;
+    color: #fafafa;
+}
+.google{
+    position: absolute;
+    width: 253.2px;
+    height: 76.2px;
+}
+.page2{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background-color: #ededed68   ;
+}
+.flex{
+    /* position: absolute; */
+    width: 360px;
+    display: inline-block;
+    min-height: 180px;
+    background-color: inherit;
+    border-radius: 15px;
+    margin-left: 240px;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.imgflex{
+    width: 80px;
+    height: 80px;
+    background-image: url("bycicle\ \(1\).png");
+    background-size: cover;
+}
+.main{
+    font-size: 30px;
+}
+.support{
+    color: rgba(0, 0, 0, 0.638);
+}
+.reng{
+    margin-left: 10px;
+}
+.cup{
+   margin-left: 10px;
+}
+.choose{
+    margin-left: 10px;
+}
+.tt{
+    margin-top: 20px;
+}
+.fix{
+   margin-left: 10px;
+}
+.page3{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    /* background-color:rgba(240, 248, 255, 0.455); */
+    text-align: center;
+}
+.h1{
+    font-weight: 100;
+    font-size: px;
+}
+.h2{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.521);
+}
+.h3{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-right: 90px;
+}
+.luachon{
+    position: relative;
+    display:inline-block;
+    width: 120px;
+    height: 120px;
+    /* background-color:#EDEDED; */
+    margin-left: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+.b1{
+    margin-left: 140px;
+}
+
+.check{
+    position: absolute;
+    margin-left: 26px;
+    width: 70px;
+    height: 70px;
+    background-image: url("check.png");
+    background-size: cover;
+}
+.write{
+    position: absolute;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    top: 80px;
+    left: 3px;
+}
+.page4{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    /* background-color: rgba(127, 255, 212, 0.316); */
+}
+.screen{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: url("anh22.png");
+    background-size: cover;
+    top: 0;
+    left: 200px;
+}
+h5{
+    /* position: absolute; */
+    /* display: inline; */
+    max-width: 500px;
+    max-height: 50px;
+    font-size: 20px;
+    top: 50px;
+    margin-left: 800px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.537);
+}
+.h5{
+    position: absolute;
+}
+.h51{
+    position: absolute;
+    margin-top: 140px;
+}
+h6{
+    position: absolute;
+    font-size: 25px;
+    text-transform: uppercase;
+    left: 800px;
+    top: 80px;
+    font-weight: 100;
+}
+.content{
+    position: absolute;
+    min-width: 700px;
+    min-height: 400px;
+    background-color:;
+    top: 280px;
+    left: 800px;
+}
+.content1{
+    position: relative;
+    display: inline-block;
+    left: 25px;
+    min-width: 250px;
+    height: 50px;
+}
+.content1::after{
+    content:"";
+    position: absolute;
+    top: -6px;
+    right: 250px;
+    width: 32px;
+    height: 32px;
+    background-image: url("button\ \(1\).png");
+    background-size: cover;
+    transform: scale(0.5);
+}
+.page5{
+    position: relative;
+    width: 100%;
+    min-height: 740px;
+    background-color: white;
+    text-align: center;
+    line-height: 15px;
+}
+#h1{
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.464);
+}
+#h2{
+    font-weight: 100;
+}
+.video{
+    width: 400px;
+    height: 300px;
+    margin-left: 310px;
+}
+.page6{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background-color: #272D3B ;
+    color: #FFFFFF;
+}
+.benefit{
+    position: absolute;
+    top:50px ;
+    width: 400px;
+    height: 270px;
+    background-color: ;
+    margin-left: 100px;
+}
+.scron{
+    position: absolute;
+    display: inline-block;
+    width: 5px;
+    height: 70px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.scronn{
+    position: absolute;
+    display: inline-block;
+    margin-top: 105px;
+    width: 2px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+}
+#bene{
+    display: inline-block;
+    max-width: 120px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#benen{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.benefitt{
+    position: absolute;
+    top:50px ;
+    width: 400px;
+    height: 270px;
+    background-color: ;
+    margin-left: 600px;
+}
+.benefittt{
+    position: absolute;
+    top:50px ;
+    width: 400px;
+    height: 270px;
+    background-color: ;
+    margin-left: 1060px;
+}
+.page7{
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    /* text-align: center; */
+}
+.option{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 50px;
+    min-width: 220px;
+    min-height: 120px;
+    /* background-color: white; */
+}
+.icon{
+    position: absolute;
+    display: inline-block;
+    top: 90px;
+    width: 64px;
+    height: 64px;
+    background-image: url("calendar.png");
+    background-size: cover;
+    transform: scale(0.8);
+    
+}
+#number{
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 50px;
+}
+span{
+    position: absolute;
+    min-width: 100px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: -20px;
+    
+}
+.noidung{
+    display: inline-block;
+    min-width: 150px;
+    margin-left: 75px;
+}
+.date{
+    margin-left: 240px;
+}
+.letter{background-image: url("drone.png");}
+.heart{
+    background-image: url("heart.png");
+}
+.hi{
+    background-image: url("two-fingers.png");
+}
+.page8{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #5e0effa4;
+}
+.boder{
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 300px;
+    height: 280px;
+    border: 3px solid orange;
+    text-align: center;
+}
+.orange{
+    position: absolute;
+    left: 190px;
+    top: 30px;
+    text-align: center;
+}
+.orange2{
+    position: absolute;
+    color: #590DF3;
+    width: 250px;
+    height: 250px;
+    top: 15px;
+    left: -20px;
+}
+.boderbig{
+    position: relative;
+    display:inline-block;
+    top: 30px;
+    margin-left: 20px;
+    left: 570px;
+    width: 330px;
+    height: 330px;
+    background-color: #fafafa;
+}
+.cost{
+    display: inline-block;
+}
+.orange3{
+    position: absolute;
+    left: 900px;
+    top: 30px;
+}
+.chu{
+    margin-top: -15px;
+    font-size: 20px;
+}
+.lead{
+    width: 250px;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.lead1{
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.nd{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.page9{
+    position: relative;
+    color: #fafafa;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+}
+#footer{
+    text-transform: capitalize;
+    color: black;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.form{
+    position: absolute;
+    width: 550px;
+    height: 230px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.name{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    width: 45%;
+    height: 30px;
+    border-radius: 10px;
+}
+.email{
+    font-size: 20px;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+}
+.phone{
+    margin-top: 10px;
+    width: 98%;
+    height: 30px;
+    font-size:20px ;
+    border-radius: 10px;
+}
+#mes{
+    text-transform: capitalize;
+    text-align:start;
+    margin-top: 10px;
+    width: 98%;
+    height: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.send{
+    position: absolute;
+    border: 2px solid black;
+    top: 85%;
+    left: 485px;
+    width: 200px;
+    height: 50px;
+    background-color: #590DF3;
+    transition: all 0.3s linear;
+    border-radius: 10px;
+}
+.send:hover{
+    background-color: aquamarine;
+    color: red;
+}

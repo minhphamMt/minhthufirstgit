@@ -1,0 +1,131 @@
+body{
+    font-family: sans-serif;
+}
+.page1{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url("anh-phong-canh-cay-coi.png");
+    background-size: cover;
+}
+.page1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(240, 248, 255, 0.267);
+}
+.heart{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-image: url("heart\ \(1\).png");
+    background-size: cover;
+    transform: scale(0.7);
+    z-index: 2;
+    left: 100px;
+    top: 20px;
+}
+span{
+    position: absolute;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.785);
+    margin-top: 43px;
+    margin-left: 180px;
+    z-index: 2;
+}
+.line1top{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 2px;
+    min-width: 300px;
+    height: 30px;
+    background-color:rgba(240, 248, 255, 0.152);
+    right: 200px;
+    border-radius: 5px;
+    z-index: 2;
+}
+.main-line{
+    color: #FFFFFF;
+    font-weight: 400;
+    position: absolute;
+    max-width: 500px;
+    text-align: center;
+    font-size: 55px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.two{
+    top: 50%;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+.start{
+    position: absolute;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+    width: 350px;
+    height: 60px;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px rgba(0, 0, 0, 0.544) solid;
+    border-radius: 30px;
+    z-index: 2;
+    cursor: pointer;
+}
+#subject{
+    position:absolute;
+    color: #FFFFFF;
+    width: 380px;
+    height: 120px;
+    top: 70%;
+    left: 150px;
+    
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    background-image: url("electrocardiogram.png");
+    background-size: cover;
+    margin-left: 10px;
+    display: inline-block;
+}
+.line1{
+    text-transform: capitalize;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.line2{
+    display: inline-block;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+#subject1{
+    position:absolute;
+    width: 380px;
+    height: 120px;
+   color: #FFFFFF;
+    top: 70%;
+    left: 600px;
+}
+#subject2{
+    position:absolute;
+    width: 380px;
+    height: 120px;
+    top: 70%;
+    left: 1050px;
+    color: #FFFFFF;
+}
